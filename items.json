@@ -1,0 +1,567 @@
+{
+  "items": [
+    {
+      "id": "duct-tape",
+      "name": "Duct Tape",
+      "category": "Topside Material",
+      "rarity": "Uncommon",
+      "sellPrice": 300,
+      "recyclesInto": [
+        {
+          "item": "Fabric",
+          "quantity": 3
+        }
+      ],
+      "questUsage": [],
+      "craftingUsage": [],
+      "workshopUsage": [],
+      "recommendation": "sell",
+      "recommendationReason": "Limited crafting use. Better to sell for credits or recycle for Fabric if needed.",
+      "notes": "Common topside material with basic recycling value. Found frequently in residential areas.",
+      "stackSize": 50,
+      "weight": 0.1
+    },
+    {
+      "id": "antiseptic",
+      "name": "Antiseptic",
+      "category": "Refined Material",
+      "rarity": "Rare",
+      "sellPrice": 450,
+      "recyclesInto": [
+        {
+          "item": "Chemicals",
+          "quantity": 2
+        },
+        {
+          "item": "Plastic",
+          "quantity": 1
+        }
+      ],
+      "questUsage": [
+        {
+          "questName": "Medical Supply Run",
+          "questGiver": "Dr. Chen",
+          "quantity": 5,
+          "questId": "quest-medical-01"
+        },
+        {
+          "questName": "Field Hospital Setup",
+          "questGiver": "Nurse Kira",
+          "quantity": 3,
+          "questId": "quest-hospital-01"
+        }
+      ],
+      "craftingUsage": [
+        {
+          "recipeName": "Advanced Med Kit",
+          "quantity": 2,
+          "recipeId": "craft-medkit-advanced"
+        }
+      ],
+      "workshopUsage": [
+        {
+          "upgradeName": "Medical Bay Tier 2",
+          "quantity": 10,
+          "upgradeId": "workshop-medbay-t2"
+        },
+        {
+          "upgradeName": "Medical Bay Tier 3",
+          "quantity": 15,
+          "upgradeId": "workshop-medbay-t3"
+        }
+      ],
+      "recommendation": "keep",
+      "recommendationReason": "Essential for multiple quests and Medical Bay upgrades. High demand item.",
+      "notes": "Critical medical supply. Prioritize for quest completion and workshop progression.",
+      "stackSize": 20,
+      "weight": 0.2
+    },
+    {
+      "id": "battery",
+      "name": "Battery",
+      "category": "Topside Material",
+      "rarity": "Uncommon",
+      "sellPrice": 350,
+      "recyclesInto": [
+        {
+          "item": "Acid",
+          "quantity": 2
+        },
+        {
+          "item": "Metal Scrap",
+          "quantity": 1
+        }
+      ],
+      "questUsage": [
+        {
+          "questName": "Power Grid Restoration",
+          "questGiver": "Engineer Torres",
+          "quantity": 8,
+          "questId": "quest-power-01"
+        },
+        {
+          "questName": "Communications Array",
+          "questGiver": "Signal Officer Park",
+          "quantity": 4,
+          "questId": "quest-comms-01"
+        }
+      ],
+      "craftingUsage": [
+        {
+          "recipeName": "Flashlight",
+          "quantity": 1,
+          "recipeId": "craft-flashlight"
+        },
+        {
+          "recipeName": "Motion Sensor",
+          "quantity": 2,
+          "recipeId": "craft-motion-sensor"
+        },
+        {
+          "recipeName": "Electric Trap",
+          "quantity": 3,
+          "recipeId": "craft-electric-trap"
+        }
+      ],
+      "workshopUsage": [
+        {
+          "upgradeName": "Electronics Lab Tier 1",
+          "quantity": 12,
+          "upgradeId": "workshop-electronics-t1"
+        },
+        {
+          "upgradeName": "Power Station Tier 2",
+          "quantity": 20,
+          "upgradeId": "workshop-power-t2"
+        }
+      ],
+      "recommendation": "keep",
+      "recommendationReason": "Frequently used in crafting and essential for early quest progression.",
+      "notes": "Versatile power source. Found in vehicles, electronics stores, and industrial areas.",
+      "stackSize": 30,
+      "weight": 0.3
+    },
+    {
+      "id": "arc-alloy",
+      "name": "ARC Alloy",
+      "category": "Topside Material",
+      "rarity": "Epic",
+      "sellPrice": 800,
+      "recyclesInto": [
+        {
+          "item": "Advanced Metal",
+          "quantity": 4
+        },
+        {
+          "item": "Composite Material",
+          "quantity": 2
+        }
+      ],
+      "questUsage": [
+        {
+          "questName": "Reinforce Safe Zone",
+          "questGiver": "Commander Hayes",
+          "quantity": 15,
+          "questId": "quest-safezone-01"
+        },
+        {
+          "questName": "ARC Technology Research",
+          "questGiver": "Dr. Voss",
+          "quantity": 10,
+          "questId": "quest-research-01"
+        },
+        {
+          "questName": "Barricade Construction",
+          "questGiver": "Engineer Torres",
+          "quantity": 8,
+          "questId": "quest-barricade-01"
+        }
+      ],
+      "craftingUsage": [
+        {
+          "recipeName": "ARC Rifle",
+          "quantity": 5,
+          "recipeId": "craft-arc-rifle"
+        },
+        {
+          "recipeName": "Heavy Armor Plating",
+          "quantity": 3,
+          "recipeId": "craft-heavy-armor"
+        },
+        {
+          "recipeName": "Reinforced Shield",
+          "quantity": 4,
+          "recipeId": "craft-reinforced-shield"
+        }
+      ],
+      "workshopUsage": [
+        {
+          "upgradeName": "Armory Tier 2",
+          "quantity": 25,
+          "upgradeId": "workshop-armory-t2"
+        },
+        {
+          "upgradeName": "Armory Tier 3",
+          "quantity": 40,
+          "upgradeId": "workshop-armory-t3"
+        },
+        {
+          "upgradeName": "Fabrication Bay Tier 3",
+          "quantity": 35,
+          "upgradeId": "workshop-fabrication-t3"
+        },
+        {
+          "upgradeName": "Defense Grid Tier 2",
+          "quantity": 30,
+          "upgradeId": "workshop-defense-t2"
+        }
+      ],
+      "recommendation": "keep",
+      "recommendationReason": "Extremely valuable material used in high-tier upgrades and critical quests. Never sell.",
+      "notes": "Premium crafting material. Salvaged from ARC technology and high-level enemies. Essential for endgame progression.",
+      "stackSize": 15,
+      "weight": 0.5
+    },
+    {
+      "id": "wires",
+      "name": "Wires",
+      "category": "Topside Material",
+      "rarity": "Common",
+      "sellPrice": 200,
+      "recyclesInto": [
+        {
+          "item": "Copper",
+          "quantity": 2
+        },
+        {
+          "item": "Plastic",
+          "quantity": 1
+        }
+      ],
+      "questUsage": [
+        {
+          "questName": "Electrical Repairs",
+          "questGiver": "Electrician Kim",
+          "quantity": 12,
+          "questId": "quest-electrical-01"
+        },
+        {
+          "questName": "Communications Array",
+          "questGiver": "Signal Officer Park",
+          "quantity": 6,
+          "questId": "quest-comms-01"
+        }
+      ],
+      "craftingUsage": [
+        {
+          "recipeName": "Fuse Box",
+          "quantity": 4,
+          "recipeId": "craft-fusebox"
+        },
+        {
+          "recipeName": "Trip Wire Trap",
+          "quantity": 3,
+          "recipeId": "craft-tripwire"
+        },
+        {
+          "recipeName": "Motion Sensor",
+          "quantity": 5,
+          "recipeId": "craft-motion-sensor"
+        },
+        {
+          "recipeName": "Electric Trap",
+          "quantity": 4,
+          "recipeId": "craft-electric-trap"
+        }
+      ],
+      "workshopUsage": [
+        {
+          "upgradeName": "Electronics Lab Tier 1",
+          "quantity": 20,
+          "upgradeId": "workshop-electronics-t1"
+        },
+        {
+          "upgradeName": "Electronics Lab Tier 2",
+          "quantity": 35,
+          "upgradeId": "workshop-electronics-t2"
+        },
+        {
+          "upgradeName": "Power Station Tier 1",
+          "quantity": 15,
+          "upgradeId": "workshop-power-t1"
+        },
+        {
+          "upgradeName": "Communications Hub Tier 1",
+          "quantity": 25,
+          "upgradeId": "workshop-comms-t1"
+        }
+      ],
+      "recommendation": "keep",
+      "recommendationReason": "Essential component for electronics crafting and multiple workshop upgrades. Keep a steady supply.",
+      "notes": "Abundant material found in most buildings. Critical for electrical systems and traps.",
+      "stackSize": 50,
+      "weight": 0.1
+    },
+    {
+      "id": "scrap-metal",
+      "name": "Scrap Metal",
+      "category": "Topside Material",
+      "rarity": "Common",
+      "sellPrice": 150,
+      "recyclesInto": [
+        {
+          "item": "Metal Fragments",
+          "quantity": 5
+        }
+      ],
+      "questUsage": [
+        {
+          "questName": "Fortification Basics",
+          "questGiver": "Builder Jackson",
+          "quantity": 20,
+          "questId": "quest-fortify-01"
+        }
+      ],
+      "craftingUsage": [
+        {
+          "recipeName": "Metal Barricade",
+          "quantity": 8,
+          "recipeId": "craft-barricade"
+        },
+        {
+          "recipeName": "Reinforced Door",
+          "quantity": 10,
+          "recipeId": "craft-door"
+        },
+        {
+          "recipeName": "Basic Armor Plating",
+          "quantity": 6,
+          "recipeId": "craft-basic-armor"
+        }
+      ],
+      "workshopUsage": [
+        {
+          "upgradeName": "Fabrication Bay Tier 1",
+          "quantity": 30,
+          "upgradeId": "workshop-fabrication-t1"
+        },
+        {
+          "upgradeName": "Armory Tier 1",
+          "quantity": 25,
+          "upgradeId": "workshop-armory-t1"
+        }
+      ],
+      "recommendation": "recycle",
+      "recommendationReason": "Very common material. Recycle for Metal Fragments when needed for higher-tier crafting.",
+      "notes": "Most abundant material. Useful for early game but quickly becomes less valuable.",
+      "stackSize": 100,
+      "weight": 0.2
+    },
+    {
+      "id": "medical-supplies",
+      "name": "Medical Supplies",
+      "category": "Refined Material",
+      "rarity": "Rare",
+      "sellPrice": 500,
+      "recyclesInto": [
+        {
+          "item": "Fabric",
+          "quantity": 2
+        },
+        {
+          "item": "Chemicals",
+          "quantity": 3
+        }
+      ],
+      "questUsage": [
+        {
+          "questName": "Emergency Triage",
+          "questGiver": "Dr. Chen",
+          "quantity": 7,
+          "questId": "quest-triage-01"
+        },
+        {
+          "questName": "Survivor Rescue",
+          "questGiver": "Scout Martinez",
+          "quantity": 4,
+          "questId": "quest-rescue-01"
+        }
+      ],
+      "craftingUsage": [
+        {
+          "recipeName": "Advanced Med Kit",
+          "quantity": 1,
+          "recipeId": "craft-medkit-advanced"
+        },
+        {
+          "recipeName": "Trauma Kit",
+          "quantity": 2,
+          "recipeId": "craft-trauma-kit"
+        }
+      ],
+      "workshopUsage": [
+        {
+          "upgradeName": "Medical Bay Tier 1",
+          "quantity": 8,
+          "upgradeId": "workshop-medbay-t1"
+        },
+        {
+          "upgradeName": "Medical Bay Tier 2",
+          "quantity": 12,
+          "upgradeId": "workshop-medbay-t2"
+        }
+      ],
+      "recommendation": "keep",
+      "recommendationReason": "Critical for quest progression and healing item crafting. High priority item.",
+      "notes": "Found in hospitals, ambulances, and medical facilities. Essential for survival.",
+      "stackSize": 15,
+      "weight": 0.4
+    },
+    {
+      "id": "circuit-board",
+      "name": "Circuit Board",
+      "category": "Refined Material",
+      "rarity": "Rare",
+      "sellPrice": 600,
+      "recyclesInto": [
+        {
+          "item": "Copper",
+          "quantity": 3
+        },
+        {
+          "item": "Rare Components",
+          "quantity": 1
+        }
+      ],
+      "questUsage": [
+        {
+          "questName": "Drone Assembly",
+          "questGiver": "Tech Specialist Lee",
+          "quantity": 5,
+          "questId": "quest-drone-01"
+        },
+        {
+          "questName": "Security System Upgrade",
+          "questGiver": "Commander Hayes",
+          "quantity": 8,
+          "questId": "quest-security-01"
+        }
+      ],
+      "craftingUsage": [
+        {
+          "recipeName": "Surveillance Drone",
+          "quantity": 3,
+          "recipeId": "craft-drone"
+        },
+        {
+          "recipeName": "Advanced Scanner",
+          "quantity": 2,
+          "recipeId": "craft-scanner"
+        },
+        {
+          "recipeName": "Targeting System",
+          "quantity": 4,
+          "recipeId": "craft-targeting"
+        }
+      ],
+      "workshopUsage": [
+        {
+          "upgradeName": "Electronics Lab Tier 2",
+          "quantity": 15,
+          "upgradeId": "workshop-electronics-t2"
+        },
+        {
+          "upgradeName": "Electronics Lab Tier 3",
+          "quantity": 25,
+          "upgradeId": "workshop-electronics-t3"
+        },
+        {
+          "upgradeName": "Drone Bay Tier 1",
+          "quantity": 10,
+          "upgradeId": "workshop-dronebay-t1"
+        }
+      ],
+      "recommendation": "keep",
+      "recommendationReason": "Required for advanced electronics and drone technology. Limited availability.",
+      "notes": "Salvaged from computers and electronic equipment. Essential for tech progression.",
+      "stackSize": 20,
+      "weight": 0.2
+    },
+    {
+      "id": "explosive-compound",
+      "name": "Explosive Compound",
+      "category": "Refined Material",
+      "rarity": "Epic",
+      "sellPrice": 900,
+      "recyclesInto": [
+        {
+          "item": "Chemicals",
+          "quantity": 5
+        },
+        {
+          "item": "Volatile Material",
+          "quantity": 2
+        }
+      ],
+      "questUsage": [
+        {
+          "questName": "Demolition Work",
+          "questGiver": "Demolitionist Ramos",
+          "quantity": 6,
+          "questId": "quest-demo-01"
+        },
+        {
+          "questName": "Clear the Rubble",
+          "questGiver": "Engineer Torres",
+          "quantity": 4,
+          "questId": "quest-rubble-01"
+        }
+      ],
+      "craftingUsage": [
+        {
+          "recipeName": "Frag Grenade",
+          "quantity": 2,
+          "recipeId": "craft-frag-grenade"
+        },
+        {
+          "recipeName": "Proximity Mine",
+          "quantity": 3,
+          "recipeId": "craft-proximity-mine"
+        },
+        {
+          "recipeName": "Breaching Charge",
+          "quantity": 4,
+          "recipeId": "craft-breach-charge"
+        },
+        {
+          "recipeName": "Rocket Ammo",
+          "quantity": 1,
+          "recipeId": "craft-rocket-ammo"
+        }
+      ],
+      "workshopUsage": [
+        {
+          "upgradeName": "Munitions Factory Tier 1",
+          "quantity": 12,
+          "upgradeId": "workshop-munitions-t1"
+        },
+        {
+          "upgradeName": "Munitions Factory Tier 2",
+          "quantity": 20,
+          "upgradeId": "workshop-munitions-t2"
+        }
+      ],
+      "recommendation": "keep",
+      "recommendationReason": "Dangerous but essential for explosives crafting. Use carefully and conservatively.",
+      "notes": "CAUTION: Volatile material. Can explode if damaged in inventory. Store in Munitions Bay when possible.",
+      "stackSize": 10,
+      "weight": 0.6
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-29",
+    "gameVersion": "0.8.2",
+    "totalItems": 10
+  }
+}
